@@ -1,0 +1,77 @@
+See "man sudo_root" for details.
+    2  See "man sudo_root" for details.
+    3  sudo apt update
+    4  sudo apt install apt-transport-https ca-certificates curl software-properties-common
+    5  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+    6  echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+    7  sudo apt update
+    8  apt-cache policy docker-ce
+    9  sudo apt install docker-ce
+   10  sudo systemctl status docker
+   11  docker images
+   12  sudo sudo usermod -a -G docker ubuntu
+   13  docker images
+   14  sudo usermod -a -G docker ubuntu
+   15  docker images
+   16  sudo docker iamges
+   17  sudo usermod -a -G docker ubuntu
+   18  docker images
+   19  clear
+   20  docker images
+   21  sudo usermod -a -G docker ubuntu
+   22  sudo reboot
+   23  ls
+   24  sudo nano Dockerfile 
+   25  docker images
+   26  sudo docker rmi deploy-war-image:v2 
+   27  sudo docker rmi deploy-war-image 
+   28  sudo docker rmi d2dd 
+   29  docker images
+   30  docker ps
+   31  docker stop faee
+   32  docker ps
+   33  docker rmi faee
+   34  docker ps -a
+   35  docker rm faee09821a34
+   36  docker ps a
+   37  docker ps -a
+   38  docker images
+   39  sudo docker rmi deploy-war-image
+   40  docker rmi d2ddeb2db0ac
+   41  docker images
+   42  clear
+   43  ls
+   44  docker build -t deploy-war-image:v2 .
+   45  docker run -it -d --name newcontainer -p 9091:8080 deploy-war-image:v2
+   46  curl ifconfig
+   47  curl ifconfig.me
+   48  docker run -it -d --name newcontainer -p 8080:8080 deploy-war-image:v2
+   49  docker ps
+   50  docker exec -it 78c8e3a44d2d /bin/nash
+   51  docker exec -it 78c8e3a44d2d /bin/bash
+   52  sudo apt update
+   53  docker images
+   54  clear
+   55  docker ps
+   56  sudo nano Dockerfile
+   57  sudo apr update
+   58  sudo apt update
+   59  clear
+   60  docker ps
+   61  docker exec -it 0d7584b1b319 /bin/bash
+   62  docker ps
+   63  cd /usr
+   64  l
+   65  ls
+   66  cd local
+   67  ls
+   68  cd tomcat
+   69  cd 
+   70  sudo nano Dockerfile
+   71  exit
+   72  sudo nano Dockerfile 
+   73  ls 
+   74  sudo nano Dockerfile 
+   75  sudo apt update
+   76  ls
+   77  history
